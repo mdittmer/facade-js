@@ -1,0 +1,42 @@
+{
+  "name": "facade-js",
+  "version": "0.0.1",
+  "description": "The facade pattern for Javascript",
+  "main": "facade.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm run build",
+    "lint": "gulp lint",
+    "build": "gulp build",
+    "deploy": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdittmer/facade-js.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Mark Dittmer",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mdittmer/facade-js/issues"
+  },
+  "homepage": "https://github.com/mdittmer/facade-js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "esformatter": "^0.9.6",
+    "esformatter-add-trailing-commas": "^1.1.0",
+    "esformatter-auto-wrap": "^0.2.0",
+    "esformatter-onevar": "^0.2.0-dev",
+    "esformatter-semicolons": "^1.1.2",
+    "esformatter-var-each": "^2.1.0",
+    "eslint": "^3.5.0",
+    "eslint-config-google": "^0.6.0",
+    "run-sequence": "^1.2.2",
+    "version-bump-prompt": "^1.7.1"
+  },
+  "eslintConfig": {
+    "extends": "google"
+  }
+}
