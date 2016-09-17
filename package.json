@@ -4,11 +4,7 @@
   "description": "The facade pattern for Javascript",
   "main": "facade.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm run build",
-    "lint": "gulp lint",
-    "build": "gulp build",
-    "deploy": "node src/main.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
